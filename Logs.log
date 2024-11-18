@@ -89,3 +89,34 @@
 2024-10-02 16:02:41,699 - INFO - Completed entry for Conventional
 2024-10-02 16:02:43,143 - INFO - Completed entry for Conventional Refined
 2024-10-02 16:02:43,705 - INFO - completed entry for file 2024-09-03 C449499V1 DIR-UT Assay.XLS
+2024-11-18 09:37:31,152 - INFO - Starting...............
+2024-11-18 09:37:31,153 - INFO - Working on file2024-06-25 C433559V1 DIR-Z3.XLS
+2024-11-18 09:37:32,829 - INFO - Completed entry for Metals
+2024-11-18 09:37:34,951 - INFO - Completed entry for Metal Refined
+2024-11-18 09:37:35,745 - ERROR - An error occurred while processing the data: unsupported operand type(s) for /: 'str' and 'int'
+2024-11-18 09:37:35,746 - INFO - Working on file2024-06-30 C434586V1 DIR-Z3.XLS
+2024-11-18 09:37:37,217 - INFO - Completed entry for Metals
+2024-11-18 09:37:39,401 - INFO - Completed entry for Metal Refined
+2024-11-18 09:37:40,155 - INFO - No dissolved metal
+2024-11-18 09:37:41,384 - INFO - Completed entry for Conventional
+2024-11-18 09:48:49,149 - INFO - Starting...............
+2024-11-18 09:48:49,149 - INFO - Working on file2024-07-10 C437555V1 DIR-Z3.XLS
+2024-11-18 09:48:50,816 - INFO - Completed entry for Metals
+2024-11-18 09:48:52,927 - INFO - Completed entry for Metal Refined
+2024-11-18 09:48:55,079 - INFO - Completed entry for Dissolved
+2024-11-18 09:48:57,009 - INFO - Completed entry for Dissolved Refined
+2024-11-18 09:48:59,197 - INFO - Completed entry for Conventional
+2024-11-18 09:49:01,212 - INFO - Completed entry for Conventional Refined
+2024-11-18 09:49:01,861 - INFO - completed entry for file 2024-07-10 C437555V1 DIR-Z3.XLS
+2024-11-18 09:49:01,862 - INFO - File 2024-07-10 C437555V1 DIR-Z3.XLS has been deleted.
+2024-11-18 09:50:48,007 - INFO - Master Data Updated, please press Enter to end
+2024-11-18 09:51:10,412 - INFO - Starting...............
+2024-11-18 09:51:10,413 - INFO - Working on file2024-07-10 C437555V1 DIR-Z3.XLS
+2024-11-18 09:51:10,757 - INFO - Completed entry for Metals
+2024-11-18 09:51:10,938 - INFO - Completed entry for Metal Refined
+2024-11-18 09:51:11,138 - INFO - Completed entry for Dissolved
+2024-11-18 09:51:11,273 - INFO - Completed entry for Dissolved Refined
+2024-11-18 09:51:11,401 - INFO - Completed entry for Conventional
+2024-11-18 09:51:11,506 - INFO - Completed entry for Conventional Refined
+2024-11-18 09:51:11,555 - INFO - completed entry for file 2024-07-10 C437555V1 DIR-Z3.XLS
+2024-11-18 09:51:13,868 - INFO - Master Data Updated, please press Enter to end

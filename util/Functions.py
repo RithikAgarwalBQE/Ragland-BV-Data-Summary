@@ -62,6 +62,9 @@ def transform_parameters(df, test_type, parameter):
         return df_pivot, parameter_check
     else:
 
+        # Converting the ug/L values to mg/L         
+        df['Result'] = df.apply(lambda row: process_result(row['Result'], row['Units']), axis=1)
+
         final_df = df[['Sampling Date','Client Sample #', 'Test', 'Parameter', 'Result']]
 
         df_pivot = final_df.pivot_table(index=['Sampling Date', 'Client Sample #'], columns='Parameter', values='Result', aggfunc=lambda x: ' '.join(str(v) for v in x)).reset_index()
@@ -121,3 +124,14 @@ def join_with_master(df_master, df_pivot):
     df_appended.sort_values(by='Sampling Date', inplace =True)
 
     return df_appended
+
+def process_result(value, unit):
+    if unit == 'ug/L':  # Process only if the unit is 'ug/L'
+        if isinstance(value, str) and '<' in value:
+            # Remove the '<', convert to mg/L, and add '<' back
+            numeric_part = float(float(value.replace('<', '').strip())) / 1000
+            return f'<{numeric_part}'
+        elif pd.to_numeric(value, errors='coerce') is not None:
+            # Convert numeric strings or floats to mg/L
+            return float(value) / 1000
+    return value
