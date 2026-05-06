@@ -18,7 +18,7 @@ logging.basicConfig(
 production = 0
 
 #setting up path to all the required files
-if production == 0:
+if production == 1:
     folder_path = 'Input_files'
     file_path = folder_path + '\\'
     Writing_file = 'Database\\' + 'MasterData.xlsx'
